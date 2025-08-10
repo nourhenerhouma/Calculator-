@@ -2,9 +2,9 @@
 import tkinter as tk
 # create function to press the buttom
 def button_press(num):
-  global equation_vide
-  equation_vide=equation_vide+str(num)
-  equation_txt.set(equation_vide)
+   global equation_vide
+   equation_vide=equation_vide+str(num)
+   equation_txt.set(equation_vide)
 def equals():
     global equation_vide
     total=str(eval(equation_vide))
